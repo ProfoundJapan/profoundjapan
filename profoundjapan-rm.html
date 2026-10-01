@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Ryan McDowell</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f0eae1;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Top Section: Photo/Title on Left, Intro on Right */
+    .profile-header {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #eee;
+    }
+
+    @media (min-width: 600px) {
+      .profile-header {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    }
+
+    .sidebar {
+      flex: 1;
+      text-align: center;
+    }
+
+    @media (min-width: 600px) {
+      .sidebar {
+        text-align: left;
+        max-width: 220px;
+      }
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #111;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .intro {
+      flex: 2;
+    }
+
+    .intro h2 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .intro p {
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    /* Section: Work History / Projects */
+    .works-section {
+      margin-bottom: 40px;
+    }
+
+    .works-section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      color: #111;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      display: inline-block;
+    }
+
+    .work-item {
+      margin-bottom: 20px;
+    }
+
+    .work-item h3 {
+      font-size: 1.1rem;
+      color: #222;
+    }
+
+    .work-item .meta {
+      font-size: 0.85rem;
+      color: #777;
+      margin-bottom: 5px;
+    }
+
+    .work-item p {
+      color: #555;
+    }
+
+    /* Footer: LinkedIn Link */
+    footer {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+
+    footer a {
+      color: #0077b5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+.work-item ul {
+    padding-left: 24px;
+    margin-top: 8px;
+  }
+.work-item li {
+    margin-bottom: 4px;
+    color: #555;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Section -->
+    <header class="profile-header">
+      <div class="sidebar">
+        <!-- Replace profile.jpg with your image file path or URL -->
+        <img src="profile.jpg" alt="Ryan McDowell" class="profile-photo">
+        <h1>Ryan McDowell</h1>
+        <p class="subtitle">Translation / PR Specialist</p>
+      </div>
+
+      <div class="intro">
+        <h2>About Me</h2>
+        <p>
+          I was raised in Australia and have lived primarily in Japan since the age of 17. 
+ </p>
+        <p>
+My career in global public relations began in 2015, and I have continued this work independently in Tokyo since 2017. This work has involved PR writing, translation, event organizing, hosting global guests in Japan, and media training for both Japanese and global executives.
+ </p>
+        <p>
+In 2018, I began taking translation and script advisory work for Japanese production companies looking to create TV programs in English. This has seen me involved in everything from the very conceptual stage, to J-E translation, script editing, and directing global talent in the studio.
+ </p>
+        <p>
+Language is my passion. My time in university was focused on Chinese and German studies, and I have also spent time studying Spanish, Korean, and French, also living in these locations for up to a year.
+ </p>
+        <p>
+I passed JLPT N1 in 2010 and have continued to immerse myself in Japanese since. My hobbies include practicing writing kanji and combing through Japanese novels for obscure new vocabulary.
+ </p>
+
+        <p>
+The mission of all of my work is to present everything that I love about Japan in the best, most engaging, most authentic way possible to the global community. I look forward to working with more people who share this drive.
+        </p>
+        <p>
+          オーストラリア出身で、17歳より日本で生活しております。
+ </p>
+        <p>
+2015年より海外広報の分野でキャリアをスタートし、2017年から東京を拠点にフリーランスとして活動しております。PR文書の作成、英訳、イベント企画運営、海外からのゲスト対応、日本および海外の経営陣向けのメディアトレーニングなど、幅広い業務を手掛けてまいりました。
+ </p>
+        <p>
+2018年からは、英語コンテンツをつくる日本の制作会社向けに、翻訳およびスクリプトアドバイザーとして従事しております。企画立案から和英翻訳、台本編集、さらにスタジオでの海外タレントのディレクションまで、制作の全段階に携わっております。
+ </p>
+        <p>
+言語習得に情熱を注いでおり、大学では中国語とドイツ語を専攻。スペイン語、韓国語、フランス語も学び、各国に長期滞在した経験があります。
+ </p>
+        <p>
+2010年に日本語能力試験N1に合格し、その後も日本語の研鑽を続けております。趣味として漢字の練習や、日本の小説から珍しい語彙を学ぶことを楽しんでおります。
+ </p>
+        <p>
+日本の魅力を最高の形で、魅力的かつ真摯に世界に発信することが使命だと考えております。同じ志を持つ方々とご一緒できることを楽しみにしております。
+ </p>
+
+      </div>
+    </header>
+
+    <!-- Works Section -->
+    <section class="works-section">
+      <h2>Selection of work credits</h2>
+       <p class="meta"><i>TV translation and script consulting (primarily NHK World)</i></p>
+
+      <div class="work-item">
+
+        <h3>Regular programs</h3>
+        <p>
+<ul>
+  <li>Design x Stories (Design Talks Plus)
+</li>
+  <li>
+Asia Insight
+</li>
+  <li>Japanology+
+</li>
+  <li>Spiritual Explorers
+</li>
+  <li>
+Japan in Focus
+</li>
+  <li>
+Japan’s Top Inventions
+</li>
+  <li>
+Frontrunners
+</li>
+  <li>
+Sharing the Future (Side by Side)
+</li>
+  <li>
+Dining with the Chef
+</li>
+  <li>
+Direct Talk
+</li>
+  <li>
+Game Genome 
+</li>
+  <li>
+My Job in Japan
+</li>
+  <li>
+Rising
+</li>
+  <li>
+Impacts
+</li>
+  <li>
+Cycle Around Japan
+</li>
+  <li>
+Future Kid Takara</li>
+  <li>
+Anime Pilgrims
+</li>
+  </ul>
+</p>
+      </div>
+
+      <div class="work-item">
+        <h3>Documentary programs</h3>
+
+        <p>
+<ul>
+  <li>Lung Cancer Survivor
+</li>
+  <li>
+On the Frontlines of Myanmar’s Civil War
+</li>
+  <li>
+Rags to Riches
+</li>
+  <li>
+Sominsai
+</li>
+  <li>
+Explore the Tokyo National Museum
+</li>
+  <li>
+Stopping the Next Pandemic: The Virus Hunters’ Mission
+</li>
+  <li>
+Towards a Nature Positive Future: A Mission for National Parks
+</li>
+  <li>
+Promise of 1.5 ºC. Act now to stop global warming.
+</li>
+  <li>
+Shibusawa Eiichi and Sustainability
+</li>
+  <li>
+Vessel of Friendship: An Untold Story
+</li>
+  <li>
+Dragons' Lair: A Colossal Cavern
+</li>
+  <li>
+“A Bridge Builder” The Life of Ezra F. Vogel
+</li>
+  <li>
+Blind Spot: Unseen Neighbors
+</li>
+  <li>
+Japanese Life and Culture: A Journey Through 37,000 Years
+</li>
+  <li>
+The Isolado Reemerge: Unknown Depths of the Amazon
+</li>
+  <li>
+Hikikomori Pilgrimage
+</li>
+  <li>
+My Grandfather's Story: A Japanese Holdout in Indonesia
+</li>
+  <li>
+Distant Shores
+</li>
+  <li>
+Making Chalk: Factory of Hope
+</li>
+  <li>
+A Century on Film: World War II
+</li>
+  <li>
+Being at War
+</li>
+  <li>
+Inside Toyota
+</li>
+  <li>
+White Flag
+</li>
+  <li>
+Mahathir: Through the Winds of 100 Years
+</li>
+  <li>
+The Wall Dividing Life and Death
+</li>
+  </ul>
+</p>
+      </div>
+
+      <div class="work-item">
+        <h3>Drama programs</h3>
+ 
+        <p>
+
+<ul>
+  <li>Percent
+</li>
+  <li>
+The Founder: Visionary Shogun, Ieyasu
+</li>
+  <li>
+Under the Mango Tree
+</li>
+  <li>
+The Birth of the Taiga Drama
+</li>
+  </ul>
+</p>
+      </div>
+
+ <div class="work-item">
+        <h3>As "talent"</h3>
+ 
+        <p>
+
+<ul>
+  <li>Cycle Around Japan
+</li>
+  <li>
+Journeys in Japan
+</li>
+  </ul>
+</p>
+      </div>
+<br>
+<br>
+       <p class="meta"><i>Public relations</i></p>
+ <div class="work-item">
+
+
+
+        <p>
+<ul>
+  <li>J-E translation of corporate reports, press releases
+</li>
+  <li>
+Regular PR writing for corporate website
+</li>
+  <li>
+Media training for global executives in Japan
+</li>
+  <li>
+Media training for Japanese executives working with global media
+</li>
+  <li>
+Media training for Japanese governmental agency
+</li>
+  <li>
+Business conference event planning
+</li>
+  <li>
+Product launch event planning
+</li>
+  <li>
+Managing journalist relations
+</li>
+  <li>
+Hosting global corporate guests
+</li>
+  <li>
+Japan media tours
+</li>
+  <li>
+Interviews with high-profile IT leaders</li>
+  </ul>
+</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p><a href="https://www.linkedin.com/in/ryantmcdowell/" target="_blank" rel="noopener">LinkedIn</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
